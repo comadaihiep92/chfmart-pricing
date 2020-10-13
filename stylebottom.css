@@ -1,0 +1,204 @@
+<style>
+
+/* Formatting of Price Comparison Table 1
+   Set the page background for this page */
+#siteWrapper {
+  background: #FFFFFF00;
+  }
+
+  /* create white boxes for tier pricing */
+  .pricing-tier {
+    /* set background colour of tiers */
+    background: #e7ffdf;
+    /* rounded edges */
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    /* make the tier appear clickable */
+    cursor: pointer;
+    overflow: hidden;
+  }
+
+  .pricing-block {
+    width: 100%;
+  }
+
+  /* format the save yearly of each tier */
+  .pricing-tier h4 {
+    font-size: 16pt;
+    font-family: 'belbo-semi' !important;
+    font-weight: normal;
+    text-align: center;
+    /* height of title box */
+    padding: 10px 0 10px;
+    /* colour of tier title backgrounds */
+    background: #1d5a0f;
+    /* colour of tier title font */
+    color: white;
+    margin-top: 0;
+}
+
+  /* Formatting of annual fee */
+  .pricing-tier p {
+    line-height: 1.625em;
+    text-align: center;
+  }
+
+  /* Formatting of listed items */
+  .pricing-tier ul {
+    margin: 0px 0 0;
+    border-top: 1px solid #DADEDB;
+    /* Remove the bullets from feature list */
+    list-style: none;
+  }
+
+  /* Tier feature list formatting */
+  .pricing-tier li {
+    text-align: center;
+    vertical-align: middle;
+    height: 20px;
+    padding: 12px;
+    margin-bottom: 3% !important;
+    /* alignment for squarespace */
+    margin-left: -40px;
+    /* formatting of feature dividing lines */
+    border-bottom: 1px solid #DADEDB00;
+    font-size: 12pt !important;
+  }
+  /* Tier headline price formatting */
+  .pricing-tier .plan-price {
+    font-size: 5em;
+    letter-spacing: -3px;
+  }
+
+  /* More formatting of tier headline price */
+  .pricing-tier h5 {
+    margin-top: 3em;
+    font-weight: 500;
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  /* Styling of Average Monthly Spend */
+  .pricing-tier .annual-price {
+    font-size: 12pt;
+    color: #1d5a0f;
+}
+  .plan-tier.callout .annual-price {
+  /* annual price on callout */
+    font-size: 12pt;
+    color: #1d5a0f;
+}
+
+  /* Color of call-out title */
+  .pricing-tier.callout h4 {
+    background-color: #1d5a0f;
+  }
+
+  /* Styling of 'Most Popular' call-out */
+  .pricing-tier.callout h6 {
+    /* background color of Most Popular */
+    background: #2D3233;
+    /* font color of Most Popular */
+    color: #F7FAF8;
+    /* height of Most Popular */
+    padding: 4px 0 4px;
+    font-size: 12pt;
+    text-align: center;
+    vertical-align: middle;
+    /* adjust margins for Squarespace */
+    margin: -1px 0 0 0;
+    font-weight: normal !important;
+  }
+
+  /*Tablet view for Pricing h5 */
+  @media (min-width: 768px) and (max-width: 1024px) {/* Tier headline price formatting */
+  .pricing-tier .plan-price {
+    font-size: 40pt !important;
+    letter-spacing: -3px;
+  }
+
+  /* More formatting of tier headline price
+  .pricing-tier h5 {
+    margin-top: 3em;
+    font-weight: 500;
+    text-align: center;
+    vertical-align: middle;
+    }}*/
+
+     /*Shrink font 2 pts for Tablet view for List Item */
+  @media (min-width: 768px) and (max-width: 1024px) {/* Tier headline price formatting */
+  .pricing-tier li {
+    font-size: 11pt !important;
+  }
+
+
+  </style>
+
+<style>
+body {
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 16px;
+
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+
+    text-transform: none;
+    color:
+    #191d1f;
+}
+  h2 {
+        font-weight: 500;
+    font-style: normal;
+    font-size: 40px;
+    letter-spacing: 0em;
+
+    text-transform: none;
+    color: #1d5a0f;
+}
+
+ .p_margin {
+     margin-top: 0;
+     margin-bottom: 0;
+ }
+    /*button styling */
+.sqs-editable-button{
+  border-radius: 3px;
+  padding: 38px 46px;
+  font-size: 22px;
+  background-color: #FF5C65 !important;
+  color:#FFFFFF !important;
+  box-shadow: 0px 15px 65px rgba(25, 29, 31, 0.15);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.sqs-editable-button{
+  border-radius: 3px;
+  padding: 38px 46px;
+  font-size: 22px;
+  background-color: #FF5C65 !important;
+  color:#FFFFFF !important;
+  box-shadow: 0px 15px 65px rgba(25, 29, 31, 0.35);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+@media screen and (max-width: 640px){
+.sqs-editable-button{
+  border-radius: 3px;
+    background-color: #FF5C65 !important;
+  color:#FFFFFF !important;
+    padding: 25px 34px;
+    font-size: 15px;
+  }
+
+.sqs-editable-button{
+  border-radius: 3px;
+  padding: 25px 34px;
+  background-color: #FF5C65 !important;
+  color:#FFFFFF !important;
+  font-size: 15px;
+  box-shadow: 0px 15px 65px rgba(25, 29, 31, 0.35);
+  transition: box-shadow 0.3s ease-in-out;
+}
+}</style>
